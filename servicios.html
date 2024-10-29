@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Servicios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #4c7faf;
+            color: #fff;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .services-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .service-item {
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Apartado de servicios -->
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <h3>Consulta Médica</h3>
+                    <p>Proporcionamos consultas médicas profesionales para atender tus necesidades de salud.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Exámenes de Laboratorio</h3>
+                    <p>Realizamos una variedad de exámenes de laboratorio para diagnósticos precisos.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Terapia Física</h3>
+                    <p>Nuestros terapeutas físicos ofrecen tratamientos personalizados para mejorar tu movilidad.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Salud Mental</h3>
+                    <p>Contamos con profesionales que brindan apoyo psicológico y terapia.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
